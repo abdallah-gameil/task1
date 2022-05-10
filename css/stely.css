@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 450%;
+    font-weight: bolder;
+    margin-top: 35%;
+}
+.navbar-brand img{
+    width: 100%;
+    height: 10%;
+    
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.734);
+    color: white;
+}
+nav a{
+    color: white !important;
+}
+nav  .active{
+    color: #f25454!important;
+}
+ .navbar-nav  a:hover {
+    color: #f25454 !important;
+}
+.con
+{
+    margin: 5%;
+text-align: center;
+}
+.con h2{
+    font-size: 400%;
+    color: rgba(166, 166, 167, 0.486);
+}
+.container1{
+position: relative;
+}
+.con h3{
+    font-size: 250%;
+    font-weight: bolder;
+    position: absolute;
+    top: 7%;
+    left: 43%;
+    
+
+    
+}
+.anm{
+    border: whitesmoke solid 2px;
+    border-radius: 30px;
+    width: 40px;
+    height: 70px;
+    margin-left: 48%;
+}
+.tittel h2::after
+{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.anm1{
+    background-color: whitesmoke;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8%;
+    content: "";
+    animation-name: typing;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    0%{ margin-top: 8%;}
+    100%{ margin-top: 110%;
+    background-color: rgba(245, 245, 245, 0.058);}
+
+}
+
+
+.sett{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    z-index: 341;
+    
+}
+.sett i{
+    color: white;
+    font-size: larger;
+    margin-top: 20%;
+}
+.bord{
+    width: 63px;
+    height: 1.5px;
+    margin-left: 47%;
+    background-color: black;
+    margin-bottom : 2%;
+}
+.marg{
+    margin-left: 60%;
+}
+.container p {
+    font-family: "Open Sans", sans-serif;
+    color: #666;
+    line-height: 1.75em;
+}
+.imgs{
+    margin-top: 13%;
+}
+
+.child {
+    border: 2px none solid;
+    
+    position: relative;
+    overflow: hidden;
+    
+}
+.child img{
+    width: 100%;
+}
+
+.mmeber{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+   
+    background-color: #f25454a7;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+.child:hover .mmeber {
+  opacity: 1;
+   
+}
+.child img{
+    transition: all 2s;
+}
+.child:hover img {
+  
+    transform: scale(1.2);
+    
+}
+.mmeber i{
+    margin-top: 55%;
+    font-size: larger;
+}
+.child2{
+    text-align: center;
+}
+ .col-3:hover h4 {
+    color: #f25454;
+}
+.row1{
+    margin-top: 12%;
+}
+ .imgs1{
+     text-align: center;
+     position: relative;
+ }
+ .imgs1 h2{
+font-size:360% ;
+color: rgba(102, 102, 102, 0.507);
+ }
+ .imgs1 h3{
+font-size:220%;
+font-weight: bolder;
+position: absolute;
+top: 16%;
+left: 44%;
+
+ }
+
+ .container2{
+     
+     height: 100vh;
+     background-color: rgba(102, 102, 102, 0.066);
+     margin-top: 5%;
+     position: relative;
+ }
+ .icon1 h3{
+    position: absolute;
+    top:5%;
+    left: 45%;
+    font-size:220%;
+font-weight: bolder;
+ }
+ .icon1 h2 {
+    font-size:460% ;
+    color: rgba(102, 102, 102, 0.327);
+    font-weight: bolder;
+ }
+ .icon1{
+     margin: 5%;
+     text-align: center;
+ }
+ .col-4 i{
+     color: #f25454;
+     padding: 2%;
+     font-size: smaller;
+     
+ }
+ .col-4 p{
+     padding-left: 12%;
+     
+ }
+ .col-4:hover h3{
+     color: #f25454;
+ }
+ .heder{
+     text-align: center;
+ }
+ .heder h2{
+
+     font-size:360% ;
+color: rgba(102, 102, 102, 0.507);
+ }
+ .container3{
+     background-color: rgba(102, 102, 102, 0.081);
+     height: 100vh;
+     position: relative;
+     margin-top: 8%;
+     
+ }
+ .heder h3{
+    font-size:220%;
+    font-weight: bolder;
+    position: absolute;
+    top: 3%;
+    left: 43%;
+    
+     }
+ .container3 h1{
+    margin: 4%;
+    
+     }
+     .container3 p{
+         padding-left:9% ;
+     }
+     .container3 h4 i{
+         padding-left: 4%;
+         color: #f25454;
+         padding-right: 2%;
+         font-size: larger;
+     }
+     .footer{
+        background-color: rgba(0, 0, 0, 0.915);
+        height: 60vh;
+
+     }
+     .fot{
+         
+         background-image: url(/images/dotted-map.png);
+         height: 60vh;
+         background-position:center center ;
+         color: white;
+         position: relative;
+         
+     }
+
+
+     .redi{
+         background-color: #f25454c2;
+         border-radius: 50%;
+         width: 50px;
+         height: 50px;
+         text-align: center;
+         position: absolute;
+         top: -6%;
+         left: 47.5%;
+         font-size: larger;
+     }
+     .fot a{
+         color: #666;
+         text-decoration: none;
+         
+         
+     }
+     .fot a:hover{
+         color: #f25454;
+        
+         
+         
+     }
+     .fot button:hover{
+        border-color: #f25454 !important;
+        color: #f25454;
+         background: none;
+         
+         
+         
+     }
+     .fot1{
+         position: absolute;
+         top: 15%;
+         left: 47%;
+         
+     }
+     .cols{
+        padding-top: 10%;
+     }
+     .container5{
+         height: 10vh;
+         background-color: rgba(0, 0, 0, 0.922);
+         color: #666;
+         padding: 1.5%;
+     }
+     .container5 a {
+         color: white;
+         text-decoration: none;
+        
+     }
+     .container5 a:hover{
+         color: #f25454;
+     }
+     .container5 i:hover{
+         color: #f25454;
+     }
+     .container5 i{
+         margin-left: 7%;
+         color: white;
+     }
+
+     .img2 img{
+         width: 15% !important;
+         border-radius: 50%;
+         margin:10% auto;
+         
+     }
+     .coler  {
+        color: black !important;
+         
+         
+     }
+     .pra{
+         width: 70%;
+         text-align: center;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         font-size: 200%;
+     }
+     .icon3{
+         text-align: center;
+         margin-top: 5%;
+
+     }
+     .icon3 h2{
+         font-size: 350%;
+         color: rgba(102, 102, 102, 0.544);
+        
+     }
+     .icon3 h3{
+         position: absolute;
+         top: 3%;
+         font-weight: bolder;
+         left: 44%;
+     }
+     .bord1{
+        width: 63px;
+        height: 1.5px;
+        margin-left: 48%;
+        background-color: black;
+        margin-bottom : 2%;
+    }
